@@ -1,0 +1,17 @@
+[project]
+name = "purplex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "authlib>=1.7.0",
+    "fastapi>=0.136.1",
+    "httpx>=0.28.1",
+    "letta>=0.16.7",
+    "matplotlib>=3.10.9",
+    "pymongo>=4.17.0",
+    "requests>=2.33.1",
+    "tavily-python>=0.7.24",
+    "upstash-redis>=1.7.0",
+]
