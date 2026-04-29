@@ -1,0 +1,9 @@
+anthropic_model_name=""
+openai_model_name=""
+tools=[]
+reasoning_steps=20
+model_temperature=0.4
+max_tokens=5000
+llm_timeout=30
+port=8000
+mongodb=""
