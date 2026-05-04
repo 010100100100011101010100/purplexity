@@ -1,8 +1,15 @@
-from pydantic import BaseClass,HttpUrl
+from pydantic import BaseModel,HttpUrl
+from typing import List,Optional
 
-class modeloutput:
+
+
+class Source(BaseModel):
+    url:List[HttpUrl]
+    content:str
+
+class modeloutput(BaseModel):
     response:str
-    sources:list[HttpUrl]
-    followup_questions:list[str]
+    sources:List[Source]
+    followup_questions:List[str]
 
     

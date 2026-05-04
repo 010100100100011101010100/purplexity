@@ -7,3 +7,5 @@ max_tokens=5000
 llm_timeout=30
 port=8000
 mongodb=""
+
+agent_prompt="""
